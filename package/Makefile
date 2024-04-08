@@ -61,7 +61,7 @@ $(curdir)/merge-index: $(curdir)/merge
 ifndef SDK
   $(curdir)/compile: $(curdir)/system/opkg/host/compile
 endif
-$(curdir)/compile: $(curdir)/cryptsetup/host/compile
+$(curdir)/compile: $(curdir)/cryptsetup/compile
 $(curdir)/compile: $(curdir)/dtc/host/compile
 
 $(curdir)/install: $(TMP_DIR)/.build $(curdir)/merge $(if $(CONFIG_TARGET_PER_DEVICE_ROOTFS),$(curdir)/merge-index)
