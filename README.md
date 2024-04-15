@@ -1,4 +1,4 @@
-# BPI-R4-OPENWRT-V21.02  The BSP don't include any wifi driver and don't support BE19000, BE13500 WiFi Card。
+# openWRT_MPTCP The BSP don't include any wifi driver and don't support BE19000, BE13500 WiFi Card。
 
 ![OpenWrt logo](include/logo.png)
 
